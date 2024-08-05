@@ -25,14 +25,20 @@ var classes;
           color: theme.palette.text.secondary,
         },
       }));
+    <Card>
+        <CardContent>
+          <Typography color="textSecondary" gutterBottom>
+            Pool Statistics
+          </Typography>
+      </card>
     classes = useStyles();
     return (
       <React.Fragment>
         <Grid item xs={6}>
-          <Paper className={classes.paper}>Pool Hashrate</Paper>
+          <Paper className={classes.paper}>Miners</Paper>
         </Grid>
         <Grid item xs={6}>
-          <Paper className={classes.paper}>Miner(s) Online</Paper>
+          <Paper className={classes.paper}>Hashrate</Paper>
         </Grid>
         <Grid item xs={6}>
           <Paper className={classes.paper}>Current Effort</Paper>
