@@ -20,7 +20,7 @@ var classes;
           flexGrow: 1,
         },
         paper: {
-          padding: theme.spacing(1),
+          padding: theme.spacing(2),
           textAlign: 'center',
           color: theme.palette.text.secondary,
         },
@@ -28,13 +28,13 @@ var classes;
     classes = useStyles();
     return (
       <React.Fragment>
-        <Grid item xs={4}>
+        <Grid item xs={6}>
           <Paper className={classes.paper}>Pool Hashrate</Paper>
         </Grid>
-        <Grid item xs={4}>
+        <Grid item xs={6}>
           <Paper className={classes.paper}>Miner(s) Online</Paper>
         </Grid>
-        <Grid item xs={4}>
+        <Grid item xs={6}>
           <Paper className={classes.paper}>Current Effort</Paper>
         </Grid>
       </React.Fragment>
