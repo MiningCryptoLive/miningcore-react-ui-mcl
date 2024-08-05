@@ -32,7 +32,8 @@ var classes;
         <Paper className={classes.paper}>Pool Statistics</Paper>
       </Grid>
      </React.Fragment>
-    
+    );
+  }
     classes = useStyles();
     return (
       <React.Fragment>
