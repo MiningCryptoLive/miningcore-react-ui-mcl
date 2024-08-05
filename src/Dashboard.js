@@ -30,6 +30,7 @@ var classes;
           <Typography color="textSecondary" gutterBottom>
             Pool Statistics
           </Typography>
+      </CardContent>
       </card>
     classes = useStyles();
     return (
