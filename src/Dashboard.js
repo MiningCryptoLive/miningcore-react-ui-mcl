@@ -57,21 +57,21 @@ export default () => (
 <br></br>
 
     <Card>
-        <Title title="Dogecoin Solo" />
+        <Title title="DOGECOIN SOLO" />
         <CardContent>Lorem ipsum sic dolor amet...</CardContent>
     </Card>
     <br></br>
         <Card>
         <CardContent>
           <Typography color="textSecondary" gutterBottom>
-            Information
+           <a> Information </a>
           </Typography>
           <Typography color="textSecondary">
             <a href="https://blockchair.com/dogecoin" target="_blank" rel="noopener noreferrer"> Block Explorer </a> <br />
             <a href="https://blockchair.com/dogecoin" target="_blank" rel="noopener noreferrer"> Network Stats </a>
           </Typography>
           <Typography  color="textSecondary">
-            Services
+           <a> Services </a>
           </Typography>
           <Typography variant="body2" component="p">
             <a href="https://miningrigrentals.com" target="_blank" rel="noopener noreferrer"> Mining Rig Rentals </a><br />
