@@ -29,13 +29,13 @@ var classes;
     return (
       <React.Fragment>
         <Grid item xs={4}>
-          <Paper className={classes.paper}>item</Paper>
+          <Paper className={classes.paper}>Pool Hashrate</Paper>
         </Grid>
         <Grid item xs={4}>
-          <Paper className={classes.paper}>item</Paper>
+          <Paper className={classes.paper}>Miner(s) Online</Paper>
         </Grid>
         <Grid item xs={4}>
-          <Paper className={classes.paper}>item</Paper>
+          <Paper className={classes.paper}>Current Effort</Paper>
         </Grid>
       </React.Fragment>
     );
