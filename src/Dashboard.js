@@ -65,10 +65,11 @@ export default () => (
         <Card>
         <CardContent>
           <Typography color="textSecondary" gutterBottom>
-            Word of the Day
+            Information
           </Typography>
           <Typography variant="h5" component="h2">
-              ffff
+            <a href="https://blockchair.com/dogecoin"> Block Explorer </a>
+            <a href="https://blockchair.com/dogecoin"> Network Stats </a>
           </Typography>
           <Typography  color="textSecondary">
             adjective
