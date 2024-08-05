@@ -25,16 +25,13 @@ var classes;
           color: theme.palette.text.secondary,
         },
       }));
-    <Card>
-        <CardContent>
-          <Typography color="textSecondary" gutterBottom>
-            Pool Statistics
-          </Typography>
-      </CardContent>
-      </Card>
+    
     classes = useStyles();
     return (
       <React.Fragment>
+      <Grid item xs ={12}>
+        <Paper className={classes.paper}>Pool Statistics</paper>
+      </Grid>
         <Grid item xs={6}>
           <Paper className={classes.paper}>Miners</Paper>
         </Grid>
