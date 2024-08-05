@@ -25,21 +25,12 @@ var classes;
           color: theme.palette.text.secondary,
         },
       }));
+ <Card>
+        <Title title="Pool Information" />
+    </Card>
     classes = useStyles();
     return (
       <React.Fragment>
-      <Grid item xs ={12}>
-        <Paper className={classes.paper}>Pool Statistics</Paper>
-      </Grid>
-     </React.Fragment>
-    );
-  
-    classes = useStyles();
-    return (
-      <React.Fragment>
-      <Grid item xs ={12}>
-        <Paper className={classes.paper}>Pool Statistics</Paper>
-      </Grid>
         <Grid item xs={6}>
           <Paper className={classes.paper}>Miners</Paper>
         </Grid>
