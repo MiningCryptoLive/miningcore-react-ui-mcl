@@ -10,7 +10,7 @@ const theme = createMuiTheme({
     type: 'dark', // Switching the dark mode on is a single property value change.
   },
 });
-const dataProvider = jsonServerProvider('http://192.168.2.2:4000/api/pools/indexchain');
+const dataProvider = jsonServerProvider('https://doge.solopool.us/api/pools/dogecoin');
 export const BlockList = props => (
   <List {...props}>
       <Datagrid rowClick="edit">
