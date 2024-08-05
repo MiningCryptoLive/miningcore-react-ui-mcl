@@ -24,6 +24,13 @@
   color: white;
 }
 
+a {
+  color:#fff;
+}
+a:hover {
+  color:#00f
+}
+
 .App-link {
   color: #ffffff;
 }
