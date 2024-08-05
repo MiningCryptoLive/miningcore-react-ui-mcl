@@ -57,7 +57,7 @@ export default () => (
 <br></br>
 
     <Card>
-        <Title title="Pool Dashboard" />
+        <Title title="Dogecoin Solo" />
         <CardContent>Lorem ipsum sic dolor amet...</CardContent>
     </Card>
     <br></br>
