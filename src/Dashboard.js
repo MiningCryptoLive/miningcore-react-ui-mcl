@@ -33,7 +33,7 @@ var classes;
       </Grid>
      </React.Fragment>
     );
-  }
+  
     classes = useStyles();
     return (
       <React.Fragment>
