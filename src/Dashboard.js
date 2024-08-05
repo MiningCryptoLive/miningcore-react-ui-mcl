@@ -25,6 +25,13 @@ var classes;
           color: theme.palette.text.secondary,
         },
       }));
+    classes = useStyles();
+    return (
+      <React.Fragment>
+      <Grid item xs ={12}>
+        <Paper className={classes.paper}>Pool Statistics</Paper>
+      </Grid>
+     </React.Fragment>
     
     classes = useStyles();
     return (
@@ -64,14 +71,14 @@ export default () => (
         <Card>
         <CardContent>
           <Typography color="textSecondary" gutterBottom>
-           <a> Information </a>
+            Information 
           </Typography>
           <Typography color="textSecondary">
             <a href="https://blockchair.com/dogecoin" target="_blank" rel="noopener noreferrer"> Block Explorer </a> <br />
             <a href="https://blockchair.com/dogecoin" target="_blank" rel="noopener noreferrer"> Network Stats </a>
           </Typography>
           <Typography  color="textSecondary">
-           <a> Services </a>
+            Services 
           </Typography>
           <Typography variant="body2" component="p">
             <a href="https://miningrigrentals.com" target="_blank" rel="noopener noreferrer"> Mining Rig Rentals </a><br />
