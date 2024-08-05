@@ -67,15 +67,16 @@ export default () => (
           <Typography color="textSecondary" gutterBottom>
             Information
           </Typography>
-          <Typography variant="h5" component="h2">
-            <a href="https://blockchair.com/dogecoin" target="_blank" rel="noopener noreferrer"> Block Explorer </a><br></br>
+          <Typography color="textSecondary">
+            <a href="https://blockchair.com/dogecoin" target="_blank" rel="noopener noreferrer"> Block Explorer </a> <br />
             <a href="https://blockchair.com/dogecoin" target="_blank" rel="noopener noreferrer"> Network Stats </a>
           </Typography>
           <Typography  color="textSecondary">
-            adjective
+            Services
           </Typography>
           <Typography variant="body2" component="p">
-            well meaning and kindly.
+            <a href="https://miningrigrentals.com" target="_blank" rel="noopener noreferrer"> Mining Rig Rentals </a><br />
+            <a href="https://nicehash.com" target="_blank" rel="noopener noreferrer"> Nicehash Rentals </a>
             <br />
             {'"a benevolent smile"'}
           </Typography>
