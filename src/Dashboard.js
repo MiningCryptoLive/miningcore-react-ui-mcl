@@ -48,12 +48,7 @@ export default () => (
   <Grid container item xs={12} spacing={3}>
     <FormRow />
   </Grid>
-  <Grid container item xs={12} spacing={3}>
-    <FormRow />
-  </Grid>
-  <Grid container item xs={12} spacing={3}>
-    <FormRow />
-  </Grid>
+  
 </Grid>
 <br></br>
 
