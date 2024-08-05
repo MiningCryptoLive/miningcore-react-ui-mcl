@@ -68,8 +68,8 @@ export default () => (
             Information
           </Typography>
           <Typography variant="h5" component="h2">
-            <a href="https://blockchair.com/dogecoin" target="_blank" style="color:white"> Block Explorer </a>
-            <a href="https://blockchair.com/dogecoin" target="_blank" style="color:white"> Network Stats </a>
+            <a href="https://blockchair.com/dogecoin" target="_blank"> Block Explorer </a><br>
+            <a href="https://blockchair.com/dogecoin" target="_blank"> Network Stats </a>
           </Typography>
           <Typography  color="textSecondary">
             adjective
