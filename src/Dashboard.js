@@ -31,7 +31,7 @@ var classes;
             Pool Statistics
           </Typography>
       </CardContent>
-      </card>
+      </Card>
     classes = useStyles();
     return (
       <React.Fragment>
